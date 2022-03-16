@@ -1,0 +1,26 @@
+body
+{
+     overflow-x: hidden;
+}
+
+
+.Image 
+{
+     min-width: 10%;
+     margin-right: 3px;
+}
+
+.container-carousel .carousel 
+{
+     display: flex;
+}
+
+.container-carousel 
+{
+     overflow-x: scroll; 
+     overflow:hidden;
+     scroll-behavior: smooth;
+}
+
+
+
