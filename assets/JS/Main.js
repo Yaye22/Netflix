@@ -1,21 +1,33 @@
-function scroll(image, direction) 
-{
-
-    const container = document.querySelector(image);
 
 
-    if(direction == "right") 
-    { 
+        
+            function rightScroll(carousel, rightArrow) 
+            {
 
-        container.scrollright += 280
+                const scroll = document.querySelector(carousel);
 
-    } 
+                const right = document.querySelector(rightArrow);
+                
+                right.addEventListener("click", () => 
+                {
+                    scroll.scrollLeft += scroll.offsetWidth;
+                })
 
-    else if(direction == "left")
-    {
+            }
 
-        container.scrollLeft -= 280
+            function leftScroll(carousel, leftArrow) 
+            {
 
-    }
-    
-}
+                const scroll = document.querySelector(carousel);
+
+                const left = document.querySelector(leftArrow);
+
+                left.addEventListener("click", () => 
+                {
+                    scroll.scrollLeft -= scroll.offsetWidth;
+                })
+
+            }
+            
+            
+     
