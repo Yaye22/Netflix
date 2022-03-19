@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Yaye Malon Traore">
     
-    <title>Netflix</title>
+    <title>Netflix-Home</title>
 
     <link rel="icon" href="./assets/Logo/MicrosoftTeams-image.png">
 
@@ -112,9 +112,9 @@
     <main >
 
 
-        <section class="mx-14 mb-12 ">
+        <section class="mx-14 mb-12">
 
-            <p class="-py-6 text-xl text-gray-300 font-semibold mb-3">My List</p>
+            <p class="-py-6 text-xl text-gray-300 font-semibold mb-5">My List</p>
 
             <div class="flex items-center justify-center relative">
 
@@ -279,7 +279,7 @@
             
         <section class="mx-14 mb-12 ">
 
-            <p class="-py-6 text-xl text-gray-300 font-semibold mb-3">TV Shows</p>
+            <p class="-py-6 text-xl text-gray-300 font-semibold mb-5">TV Shows</p>
 
             <div class="flex items-center justify-center relative">
 
@@ -440,7 +440,7 @@
 
         <section class="mx-14 mb-12 ">
 
-            <p class="-py-6 text-xl text-gray-300 font-semibold mb-3">Trending Now</p>
+            <p class="-py-6 text-xl text-gray-300 font-semibold mb-5">Trending Now</p>
 
             <div class="flex items-center justify-center relative">
 
@@ -809,10 +809,15 @@
         </section> 
 
 
-        <section class="overflow-hidden overflow-x-scroll mb-32 mt-16">
+        <section class="carousel10 overflow-hidden overflow-x-scroll mb-32 mt-16">
 
             <p class="text-base absolute py-4 mx-14 font-semibold">Top 10 in France Today</p>
             <div class="flex mx-14 mt-16" style="width: 98rem;">
+
+                <div class="leftArrow10 absolute left-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="leftScroll('.carousel10', '.leftArrow10')">
+                    <button class="p-7 h-40 w-26 mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-left"></i></button>
+                </div>
+
                 <div>
                     <div class="h-auto w-96 flex items-center">
                         <svg id="rank-1" viewBox="-20 0 70 154" class="h-44"><path stroke="#595959" stroke-linejoin="square" stroke-width="4" d="M35.377 152H72V2.538L2 19.362v30.341l33.377-8.459V152z"></path></svg>
@@ -893,13 +898,18 @@
                         </a>
                     </div>
                 </div>
+
+                <div class="rightArrow10 cursor-pointer absolute right-0 bg-gray-900 pt-4 opacity-0 hover:opacity-40" onClick="rightScroll('.carousel10', '.rightArrow10')">
+                    <button class="p-7 h-40 w-26 outline-none mt-2 focus:outline-none"><i class="text-5xl fas fa-angle-right"></i></button>
+                </div>
+
             </div> 
 
         </section>
 
         <section class="mx-14 py-9 -mt-16 mb-12">
 
-            <p class="-py-6 text-xl text-gray-300 font-semibold mb-3">New Release</p>
+            <p class="-py-6 text-xl text-gray-300 font-semibold mb-5">New Release</p>
 
             <div class="flex items-center justify-center relative">
 
@@ -1061,7 +1071,7 @@
 
         <section class="mx-14 py-9 -mt-12 mb-12">
 
-            <p class="-py-6 text-xl text-gray-300 font-semibold mb-3 ">International TV shows</p>
+            <p class="-py-6 text-xl text-gray-300 font-semibold mb-5">International TV shows</p>
 
             <div class="flex items-center justify-center relative">
 
@@ -1222,7 +1232,7 @@
 
         <section class="mx-14 py-9 -mt-12 mb-12">
 
-            <p class="-py-6 text-xl text-gray-300 font-semibold mb-3 ">Actions & Adventure</p>
+            <p class="-py-6 text-xl text-gray-300 font-semibold mb-5">Actions & Adventure</p>
 
             <div class="flex items-center justify-center relative">
 
@@ -1383,7 +1393,7 @@
 
         <section class="mx-14 py-9 -mt-12 mb-12">
 
-            <p class="-py-6 text-xl text-gray-300 font-semibold mb-3">TV Comedies</p>
+            <p class="-py-6 text-xl text-gray-300 font-semibold mb-5">TV Comedies</p>
 
             <div class="flex items-center justify-center relative">
 
@@ -1544,7 +1554,7 @@
 
         <section class="mx-14 py-9 -mt-12 mb-12">
 
-            <p class="-py-6 text-xl text-gray-300 font-semibold mb-3">Japanese Animations</p>
+            <p class="-py-6 text-xl text-gray-300 font-semibold mb-5">Japanese Animations</p>
 
             <div class="flex items-center justify-center relative">
 
