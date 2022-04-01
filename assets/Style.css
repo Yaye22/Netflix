@@ -3,6 +3,11 @@ body
      overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+     width: 0px;
+     background:transparent; 
+ }
+
 .container-carousel .carousel 
 {
      display: flex;
