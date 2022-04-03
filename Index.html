@@ -45,7 +45,16 @@
 
             <nav class="justify-end flex -mt-12 mr-12">
             <div class="space-x-4 items-center hidden items-end lg:flex">
-                <a href="#"><span class="material-icons">search</span></a> 
+                <div class=" flex items-center justify-between ml-2 group research text-white">
+                    <div class="icon">
+                        <i class=" search fas fa-search text-xl cursor-pointer focus:outline-none"></i>
+                    </div>
+                    <div class="input">
+                        <input type="text"  placeholder="Search movies" id="search">
+                        <i class=" text-white search fa-solid fa-xmark text-xl cursor-pointer focus:outline-none"></i>
+                    </div>
+                </div>
+                
                 <p class="text-sm antialiased"><a href="#">Kids</a></p>
                 <a href="#"><span class="material-icons">notifications_active</span></a> 
                 <div class="flex items-center justify-between ml-2 group">
@@ -1861,6 +1870,15 @@
             div.onmouseover = () => video.play();
             div.onmouseout = () => video.pause();
 
+            window.onscroll = function() {
+       if (document.documentElement.scrollTop > 80) {
+           document.getElementById("navbar").style.background = "black";
+
+       } else {
+           document.getElementById("navbar").style.background = "none";
+
+       }
+   };
         </script> 
         
 </body>
