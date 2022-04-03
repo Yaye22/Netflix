@@ -51,35 +51,6 @@ body
      transition: all .5s;
 }
 
-.listonglets {
-     list-style: none;
-     display: flex;
-     justify-content: center;
- }
- 
- .deroulant {
-     margin-top: 10px;
-     position: absolute;
-     width: 144px;
-     display: flex;
-     display: none;
-     flex-direction: column;
- }
- 
- .option {
-     left: -19px;
-     float: left;
-     margin: 0 5px;
-     display: flex;
-     display: block;
- }
- 
- .onglets {
-     margin: 0 20px;
-     font-weight: 600;
- }
- 
-
 .research {
      width: 60px;
      height: 60px;
@@ -93,7 +64,7 @@ body
      background-color: #141414;
  }
  
- .research.active {
+ .research .active {
      width: 360px;
  }
  
