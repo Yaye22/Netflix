@@ -48,7 +48,37 @@
                 <a href="#"><span class="material-icons">search</span></a> 
                 <p class="text-sm antialiased"><a href="#">Kids</a></p>
                 <a href="#"><span class="material-icons">notifications_active</span></a> 
-                <a href="#"><img class="h-8 rounded-lg" src="assets/Logo/Pofile.jpeg"></a> 
+                <div class="flex items-center justify-between ml-2 group">
+
+                    <img src="assets/Logo/Pofile.jpeg" alt="Avatar" class="w-10 h-10 rounded group-hover:cursor-pointer">
+                    <button><i class="fa-solid fa-angle-down ml-2 group-hover:rotate-180 transition-all"></i></button>
+
+                    
+                    <div class="absolute right-0 translate-x-full top-16 mt-3 bg-black w-48 border border-gray-800 opacity-0 group-hover:opacity-100 group-hover:right-10 group-hover:translate-x-0 transition-opacity">
+                        <h1 class="absolute right-10 text-lg -translate-y-full mt-1"><i class="fa-solid fa-angle-down rotate-180"></i></h1>
+                        <div class="p-3 border-b border-gray-500 flex-col">
+                            <div class="flex mb-3 items-center ">
+                            
+                                <a href="#" class="text-sm ml-2 hover:underline">Mom</a>
+
+                            </div>
+                            <div class="flex mb-3 items-center group">
+                                
+                                <a href="#" class="text-sm ml-2 hover:underline">Dady</a>
+
+                            </div>
+                            <div>
+                                <a href="#" class="text-sm ml-3 hover:underline"><span class="text-lg mr-3"><i class="fa-solid fa-pencil"></i></span> Manage profiles</a>
+                            </div>
+                        </div>
+                        <div class="p-3 border-b border-gray-500 flex justify-center flex-col">
+                            <a href="#" class="hover:underline ml-3 mb-2 text-sm"><span class="text-lg mr-3"><i class="fa-solid fa-user"></i></span> Account</a>
+                            <a href="#" class="hover:underline ml-3 text-sm"><span class="text-lg mr-3"><i class="fa-solid fa-circle-info"></i></span>Helper Center</a>
+                        </div>
+                        <div class="p-3">
+                            <a href="#" class="hover:underline text-sm">Disconnect</a>
+                        </div>
+                </div>
                 <a href="#"><span class="material-icons">arrow_drop_down</span></a>
             </div>
             </nav>
@@ -623,7 +653,7 @@
                     </div>
 
                     <div class="relative bg-gradient-to-r from-pink-500 to-pink-100 rounded overflow-hidden">
-                       <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">fantasy</a>
+                       <a class="absolute top-1/4 left-3 no-underline text-white font-bold lg:text-xl md:text-base z-10" href="#">Fantasy</a>
                        <img class="rounded opacity-30 mb-3 transform hover:scale-125 transition duration-500 ease-in-out overflow-hidden" src="assets/Catalogue/Genre/fantasy.png" alt="Action">
                     </div>
 
